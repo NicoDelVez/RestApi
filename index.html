@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Controller API Squadre e Trofei</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+    <h1>Visualizza squadre per trofei</h1>
+    <!-- 2 bottoni per vedere tutte le squdre o le squdre con più di 50 trofei -->
+    <div class="controlli">
+        <button class="btn-tutte" onclick="chiamaAPI('tutte')">Mostra Tutte le Squadre</button>
+        <button class="btn-vincenti" onclick="chiamaAPI('vincenti')">Squadre con più di 50 trofei vinti</button>
+    </div>
+    <!-- lo aggiorniamo per vedere le squadre   -->
+    
+    <div id="display">
+        <p>Seleziona un bottone per vedere i risultati</p>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
